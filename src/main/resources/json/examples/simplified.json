@@ -1,0 +1,33 @@
+{
+  "DATA":[
+    {
+      "CREDITS": 1000,
+      "PARENT_ID":null,
+      "STATUS":"ACTIVE",
+      "NAME":"Stepstone International",
+      "ID":57,
+      "CHILDREN":[
+        {
+          "CREDITS": 100,
+          "PARENT_ID":57,
+          "STATUS":"ACTIVE",
+          "NAME":"Stepstone Poland",
+          "ID":157,
+          "CHILDREN":[ ],
+          "USERS":[ ]
+        }
+      ],
+      "USERS":[
+        {
+          "CREDITS": 5,
+          "STATUS":"ACTIVE",
+          "NAME":"Jan Kowalski",
+          "ID":77814
+        }
+      ]
+    }
+  ],
+  "MESSAGE":"",
+  "STATUS":200,
+  "RESULT":true
+}

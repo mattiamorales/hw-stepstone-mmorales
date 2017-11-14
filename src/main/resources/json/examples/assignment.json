@@ -1,0 +1,72 @@
+{
+   "DATA":[
+      {
+        "CREDITS": 1000,
+        "PARENT_ID":null,
+        "STATUS":"ACTIVE",
+        "NAME":"Stepstone International",
+        "ID":57,
+        "CHILDREN":[
+          {
+            "CREDITS": 100,
+            "PARENT_ID":57,
+            "STATUS":"ACTIVE",
+            "NAME":"Stepstone Poland",
+            "ID":157,
+			"CHILDREN":[
+              {
+				"CREDITS": 0,
+                "PARENT_ID":157,
+                "STATUS":"ACTIVE",
+                "NAME":"Stepstone Warsaw",
+                "ID":1570,
+				"CHILDREN":[],
+                "USERS": [
+                  {
+                    "CREDITS": 5,
+                    "STATUS":"ACTIVE",
+                    "NAME":"Anna Sojka",
+                    "ID":755334
+                  }
+                ]
+              }
+            ],
+			"USERS":[
+              {
+                "CREDITS": 5,
+                "STATUS":"ACTIVE",
+                "NAME":"Monika Kowalska",
+                "ID":79954
+              }
+			 ]
+          },
+          {
+            "CREDITS": 100,
+            "PARENT_ID":57,
+            "STATUS":"ACTIVE",
+            "NAME":"Stepstone Belgium",
+            "ID":1157,
+            "CHILDREN":[],
+			"USERS":[]
+          }
+        ],
+		"USERS":[
+		 {
+              "CREDITS": 5,
+              "STATUS":"ACTIVE",
+              "NAME":"Jan Kowalski",
+              "ID":77814
+          },
+          {
+              "CREDITS": 5,
+              "STATUS":"ACTIVE",
+              "NAME":"Janusz Nowak",
+              "ID":7780
+          }
+		]
+      }
+   ],
+   "MESSAGE":"",
+   "STATUS":200,
+   "RESULT":true
+}

@@ -1,0 +1,124 @@
+{
+  "definitions": {
+    "company" : {
+      "type": "object",
+      "properties": {
+        "CREDITS": {
+          "type": "integer",
+          "default": 0,
+          "examples": [
+            1000
+          ]
+        },
+        "PARENT_ID": {
+          "type": "integer",
+          "default": null,
+          "examples": [
+            57
+          ]
+        },
+        "STATUS": {
+          "type": "string",
+          "default": "",
+          "examples": [
+            "ACTIVE"
+          ]
+        },
+        "NAME": {
+          "type": "string",
+          "default": "",
+          "examples": [
+            "Stepstone International"
+          ]
+        },
+        "ID": {
+          "type": "integer",
+          "default": 0,
+          "examples": [
+            57
+          ]
+        },
+        "CHILDREN": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "$ref": "#/definitions/company"
+          }
+        },
+        "USERS": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "$ref": "#/definitions/user"
+          }
+        }
+      }
+    },
+    "user" : {
+      "type": "object",
+      "properties": {
+        "CREDITS": {
+          "type": "integer",
+          "default": 0,
+          "examples": [
+            5
+          ]
+        },
+        "STATUS": {
+          "type": "string",
+          "default": "",
+          "examples": [
+            "ACTIVE"
+          ]
+        },
+        "NAME": {
+          "type": "string",
+          "default": "",
+          "examples": [
+            "Jan Kowalski"
+          ]
+        },
+        "ID": {
+          "type": "integer",
+          "default": 0,
+          "examples": [
+            77814
+          ]
+        }
+      }
+    }
+  },
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "$id": "http://example.com/example.json",
+  "properties": {
+    "DATA": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "$ref": "#/definitions/company"
+      }
+    },
+    "MESSAGE": {
+      "type": "string",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "STATUS": {
+      "type": "integer",
+      "default": 0,
+      "examples": [
+        200
+      ]
+    },
+    "RESULT": {
+      "type": "boolean",
+      "default": false,
+      "examples": [
+        true
+      ]
+    }
+  }
+}
